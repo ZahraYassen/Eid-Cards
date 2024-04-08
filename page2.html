@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>عيد الفطر</title>
+    <link rel="stylesheet" href="CSS/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.js"></script>
+  </head>
+  <style></style>
+  <body>
+    <div class="header">
+      <a href="index.html"><p>عيد سعيد</p></a>
+    </div>
+    <div class="content-container">
+      <div class="balloons">
+        <img
+          class="pinkBalloon"
+          src="/CSS/images/pinkBalloon.png"
+          alt=""
+          height="251px"
+        />
+        <img
+          class="greenBalloon"
+          src="/CSS/images/lightGreen.png"
+          alt=""
+          height="251px"
+        />
+        <img
+          class="pinkBalloon2"
+          src="/CSS/images/pinkBalloon.png"
+          alt=""
+          height="151px"
+        />
+        <img
+          class="purpleBalloon"
+          src="/CSS/images/purple.png"
+          alt=""
+          height="251px"
+        />
+      </div>
+
+      <div class="img">
+        <h1>اكتب اسمك على الصورة</h1>
+        <input type="text" name="" id="input-field" placeholder="اكتب اسمك" />
+        <button id="display-btn">معاينة النص</button>
+        <div id="eid-card">
+          <!-- Display the image here -->
+          <img id="displayed-img" src="" alt="Displayed Image" width="100%" />
+          <p id="par-name"></p>
+        </div>
+        <button id="download-btn">تحميل الصورة</button>
+        <div class="color">
+          <span id="whiteColor">نص أبيض</span>
+          <span id="blackColor">نص أسود</span>
+        </div>
+      </div>
+    </div>
+    <footer>&copy; <span>Created By Zahoor Ali</span></footer>
+    <script src="page2.js"></script>
+  </body>
+</html>
